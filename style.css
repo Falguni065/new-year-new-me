@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+header {
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.right-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 400px;
+    width: 90%;
+}
+
+.first-heading {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.first-btn {
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+
+
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 300px;
+    padding: 0px 100px;
+
+}
+
+.fail-list {
+    width: 40%;
+}
+
+.fail-list>h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.fail-list>p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.fail-list>ul>li {
+    padding-bottom: 10px;
+}
+
+.plans {
+    margin: 50px 400px;
+}
+
+.plans-container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+
+}
+
+.plans>h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.plan-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-list>h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.plan-list>p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.future {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.future>h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.icon-set>img {
+    padding-right: 15px;
+}
+
+.subscribe>h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    background-color: #F15B22;
+}
