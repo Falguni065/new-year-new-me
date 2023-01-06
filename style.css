@@ -129,21 +129,50 @@ footer {
 .future>h1 {
     font-weight: 700;
     font-size: 45px;
+
 }
 
 .icon-set>img {
     padding-right: 15px;
 }
 
-.subscribe>h1 {
-    font-weight: 700;
-    font-size: 45px;
-}
+
 
 .subscribe {
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 200px;
-    background-color: #F15B22;
+    padding-top: 50px;
+}
+
+.subscribe>h1 {
+    font-weight: 550;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.subscribe>input {
+    margin-bottom: 20px;
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.last-btn {
+    width: 150px;
+    height: 64px;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+
 }
