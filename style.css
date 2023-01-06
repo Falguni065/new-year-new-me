@@ -3,6 +3,8 @@
     font-family: 'Work Sans';
 }
 
+/* Header styles */
+
 header {
     background-image: url("images/banner/banner1.png");
     background-repeat: no-repeat;
@@ -44,6 +46,8 @@ header {
 
 
 }
+
+/* Main section styles */
 
 .failures {
     display: flex;
@@ -110,6 +114,28 @@ header {
     font-size: 20px;
 }
 
+.gradient {
+    background-image: url("images/gradient2.png"), url("images/watch.png");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin: 20px auto 0px;
+}
+
+.grad-content {
+    padding: 100px;
+}
+
+.grad-content>h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+
+/* Footer section styles */
+
 footer {
     background-color: #151414;
     color: white;
@@ -135,8 +161,6 @@ footer {
 .icon-set>img {
     padding-right: 15px;
 }
-
-
 
 .subscribe {
     display: flex;
@@ -173,6 +197,4 @@ footer {
     background-color: white;
     font-size: 20px;
     font-weight: 600;
-
-
 }
