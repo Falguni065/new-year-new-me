@@ -14,19 +14,33 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 400px;
-    width: 90%;
+    padding-top: 350px;
+    width: 500px;
+    margin-left: 1200px;
+    text-align: right;
+}
+
+.right-sec>p {
+
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .first-heading {
     font-weight: 700;
-    font-size: 65px;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 
 .first-btn {
     width: 160px;
     height: 64px;
     background: #F15B22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
 
 
 }
@@ -35,7 +49,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 300px;
+    margin: 50px 300px 150px;
     padding: 0px 100px;
 
 }
